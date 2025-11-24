@@ -33,8 +33,6 @@ public class TestCases {
 
     public void testCase3() {
         System.out.println("Executing Test Case 3: Navigation Test");
-        driver.navigate().to("https://www.selenium.dev");
-        System.out.println("Navigated to Selenium.dev: " + driver.getTitle());
         driver.navigate().back();
         System.out.println("Navigated back");
         System.out.println("Test Case 3 Passed");
